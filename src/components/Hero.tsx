@@ -33,7 +33,7 @@ function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8"
         >
-          AI编程初学者
+          AI编程学习者
         </motion.p>
 
         <motion.div
