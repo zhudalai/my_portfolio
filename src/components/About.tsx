@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
 import skills from '../data/skills'
+import { useI18n } from '../i18n/I18nContext'
 
 function About() {
+  const { t } = useI18n()
+
   return (
     <section id="about" className="py-24 px-4">
       <div className="max-w-4xl mx-auto">
@@ -12,7 +15,7 @@ function About() {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold mb-4 text-center"
         >
-          关于我
+          {t.about.title}
         </motion.h2>
 
         <motion.p
@@ -22,7 +25,7 @@ function About() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-gray-400 text-center max-w-2xl mx-auto mb-16"
         >
-          AI编程初学者，正在学习 Python、Git / GitHub 和 Claude Code。
+          {t.about.description}
         </motion.p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
+import { useI18n } from '../i18n/I18nContext'
 
 const contacts = [
   {
-    label: '邮箱',
+    labelKey: 'emailLabel' as const,
     value: 'zhuge931207@gmail.com',
     href: 'mailto:zhuge931207@gmail.com',
     icon: (
@@ -12,7 +13,7 @@ const contacts = [
     ),
   },
   {
-    label: 'GitHub',
+    labelKey: 'githubLabel' as const,
     value: 'github.com/zhudalai',
     href: 'https://github.com/zhudalai',
     icon: (
@@ -24,6 +25,8 @@ const contacts = [
 ]
 
 function Contact() {
+  const { t } = useI18n()
+
   return (
     <section id="contact" className="py-24 px-4">
       <div className="max-w-4xl mx-auto text-center">
@@ -34,7 +37,7 @@ function Contact() {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold mb-4"
         >
-          联系我
+          {t.contact.title}
         </motion.h2>
 
         <motion.p
@@ -44,13 +47,13 @@ function Contact() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-gray-400 max-w-2xl mx-auto mb-16"
         >
-          有项目合作或工作机会？欢迎通过以下方式与我取得联系。
+          {t.contact.subtitle}
         </motion.p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           {contacts.map((item, index) => (
             <motion.a
-              key={item.label}
+              key={item.labelKey}
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
@@ -62,7 +65,7 @@ function Contact() {
             >
               <span className="text-accent-start">{item.icon}</span>
               <div className="text-left">
-                <p className="text-xs text-gray-400">{item.label}</p>
+                <p className="text-xs text-gray-400">{t.contact[item.labelKey]}</p>
                 <p className="text-sm font-medium">{item.value}</p>
               </div>
             </motion.a>

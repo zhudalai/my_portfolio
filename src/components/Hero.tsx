@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion'
+import { useI18n } from '../i18n/I18nContext'
 
 function Hero() {
+  const { t } = useI18n()
+
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-16 px-4">
       <div className="max-w-4xl mx-auto text-center">
@@ -21,9 +24,9 @@ function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-4xl md:text-6xl font-bold mb-6"
         >
-          你好，我是{' '}
+          {t.hero.greeting}{' '}
           <span className="bg-gradient-to-r from-accent-start to-accent-end bg-clip-text text-transparent">
-            朱延俊
+            {t.hero.name}
           </span>
         </motion.h1>
 
@@ -33,7 +36,7 @@ function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8"
         >
-          AI编程学习者
+          {t.hero.role}
         </motion.p>
 
         <motion.div
@@ -46,13 +49,13 @@ function Hero() {
             href="#projects"
             className="px-6 py-3 rounded-lg bg-gradient-to-r from-accent-start to-accent-end text-white font-medium hover:opacity-90 transition-opacity"
           >
-            查看项目
+            {t.hero.viewProjects}
           </a>
           <a
             href="#contact"
             className="px-6 py-3 rounded-lg border border-dark-border text-gray-300 hover:border-gray-500 hover:text-white transition-colors"
           >
-            联系我
+            {t.hero.contactMe}
           </a>
         </motion.div>
       </div>

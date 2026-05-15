@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
 import projects from '../data/projects'
+import { useI18n } from '../i18n/I18nContext'
 
 function Projects() {
+  const { t } = useI18n()
+
   return (
     <section id="projects" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
@@ -12,7 +15,7 @@ function Projects() {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold mb-4 text-center"
         >
-          项目展示
+          {t.projects.title}
         </motion.h2>
 
         <motion.p
@@ -22,7 +25,7 @@ function Projects() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-gray-400 text-center max-w-2xl mx-auto mb-16"
         >
-          以下是我参与开发的部分项目，每个项目都体现了不同的技术挑战和解决方案。
+          {t.projects.subtitle}
         </motion.p>
 
         {projects.length === 0 ? (
@@ -32,7 +35,7 @@ function Projects() {
             viewport={{ once: true }}
             className="text-gray-500 text-center py-12"
           >
-            项目正在筹备中，敬请期待...
+            {t.projects.empty}
           </motion.p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -72,7 +75,7 @@ function Projects() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-sm text-accent-start hover:text-accent-end transition-colors"
                   >
-                    查看项目
+                    {t.projects.viewProject}
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
