@@ -10,8 +10,14 @@ const categoryIconBg: Record<string, string> = {
   tools: 'from-orange-500/20 to-orange-600/10 border-orange-500/30',
 }
 
+function getSkillName(skill: { name: string; nameZh?: string; nameJa?: string }, lang: string): string {
+  if (lang === 'zh' && skill.nameZh) return skill.nameZh
+  if (lang === 'ja' && skill.nameJa) return skill.nameJa
+  return skill.name
+}
+
 function About() {
-  const { t } = useI18n()
+  const { t, language: lang } = useI18n()
 
   return (
     <section id="about" className="py-24 px-4">
@@ -85,7 +91,7 @@ function About() {
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-br border ${categoryIconBg[category.key] || 'from-gray-500/20 to-gray-600/10 border-gray-500/30'} hover:scale-105 transition-transform cursor-default`}
                   >
                     <span className="text-xl">{skill.icon}</span>
-                    <span className="text-sm font-medium text-gray-200">{skill.name}</span>
+                    <span className="text-sm font-medium text-gray-200">{getSkillName(skill, lang)}</span>
                   </motion.div>
                 ))}
               </div>

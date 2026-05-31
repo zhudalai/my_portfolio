@@ -1,5 +1,7 @@
 export interface Skill {
   name: string
+  nameZh?: string
+  nameJa?: string
   icon: string
   category: string
 }
@@ -53,9 +55,10 @@ const skillCategories: SkillCategory[] = [
     key: "tools",
     skills: [
       { name: "Git / GitHub", icon: "🐙", category: "tools" },
-      { name: "VS Code", icon: "💻", category: "tools" },
+      { name: "Cursor", nameZh: "Cursor", nameJa: "Cursor", icon: "◎", category: "tools" },
+      { name: "Claude Code", nameZh: "Claude Code", nameJa: "Claude Code", icon: "✨", category: "tools" },
+      { name: "OpenRouter (Free Models)", nameZh: "OpenRouter（免费模型）", nameJa: "OpenRouter（無料モデル）", icon: "🔀", category: "tools" },
       { name: "Vercel", icon: "▲", category: "tools" },
-      { name: "Claude Code", icon: "✨", category: "tools" },
     ],
   },
 ]
