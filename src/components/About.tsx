@@ -31,10 +31,35 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-gray-400 text-center max-w-2xl mx-auto mb-16"
+          className="text-gray-400 text-center max-w-2xl mb-12"
         >
           {t.about.description}
         </motion.p>
+
+        {/* Identity cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-16">
+          {t.about.cards.map((card, index) => (
+            <motion.div
+              key={card.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
+              className="group relative bg-dark-surface rounded-xl border border-dark-border p-6 hover:border-gray-500 hover:-translate-y-0.5 transition-all duration-300"
+            >
+              {/* accent glow on hover */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-accent-start/5 to-accent-end/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="relative">
+                <h3 className="text-base font-semibold mb-3 text-gray-100">
+                  {card.title}
+                </h3>
+                <p className="text-sm text-gray-400 leading-relaxed">
+                  {card.description}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
 
         {/* Skill categories */}
         <div className="space-y-8">

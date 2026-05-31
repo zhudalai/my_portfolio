@@ -17,6 +17,10 @@ export interface Translations {
   about: {
     title: string
     description: string
+    cards: {
+      title: string
+      description: string
+    }[]
   }
   projects: {
     title: string

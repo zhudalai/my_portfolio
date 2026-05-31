@@ -11,13 +11,27 @@ const translations: TranslationsMap = {
     hero: {
       greeting: '你好，我是',
       name: '朱延俊',
-      role: 'AI编程学习者',
+      role: '🛠 Vibe Coding · 🧠 Agentic Engineering · 🤖 AI 辅助开发',
       viewProjects: '查看项目',
       contactMe: '联系我',
     },
     about: {
       title: '关于我',
-      description: 'AI编程初学者，正在学习 Python、Git / GitHub 和 Claude Code。专注于全栈开发和 AI 应用。',
+      description: '热衷于探索 AI 编程的无限可能。践行 Vibe Coding 理念，探索 Agentic Engineering 工作流，以 AI 辅助方式完成多语言开发。',
+      cards: [
+        {
+          title: '🛠 Vibe Coding',
+          description: '用自然语言描述想法，让 AI 生成代码。注重快速迭代和直觉驱动的开发方式。',
+        },
+        {
+          title: '🧠 Agentic Engineering',
+          description: '构建 AI Agent 工作流，让 AI 自主完成复杂任务。从 Prompt 到 Pipeline，探索 AI 自动化编程的边界。',
+        },
+        {
+          title: '🤖 AI 辅助开发',
+          description: 'Python 徒手学习，TypeScript、PHP 等其他语言和框架均以 AI 辅助方式完成。在实践中学习，在 AI 辅助下加速。',
+        },
+      ],
     },
     projects: {
       title: '项目展示',
@@ -53,14 +67,31 @@ const translations: TranslationsMap = {
     hero: {
       greeting: "Hello, I'm",
       name: 'Zhu Yanjun',
-      role: 'AI Programming Learner',
+      role: '🛠 Vibe Coding · 🧠 Agentic Engineering · 🤖 AI-Assisted Dev',
       viewProjects: 'View Projects',
       contactMe: 'Contact Me',
     },
     about: {
       title: 'About Me',
       description:
-        "I'm an AI programming enthusiast, learning Python, Git / GitHub, and Claude Code. Focused on full-stack development and AI applications.",
+        'Passionate about exploring the possibilities of AI programming. Practicing Vibe Coding, exploring Agentic Engineering workflows, building across languages with AI assistance.',
+      cards: [
+        {
+          title: '🛠 Vibe Coding',
+          description:
+            'Describe ideas in natural language and let AI generate code. Focused on rapid iteration and intuition-driven development.',
+        },
+        {
+          title: '🧠 Agentic Engineering',
+          description:
+            'Building AI agent workflows to autonomously handle complex tasks. From prompts to pipelines, exploring the frontier of AI-automated programming.',
+        },
+        {
+          title: '🤖 AI-Assisted Development',
+          description:
+            'Learned Python from scratch, picked up TypeScript, PHP and other frameworks with AI assistance. Learning by doing, accelerated by AI.',
+        },
+      ],
     },
     projects: {
       title: 'Projects',
@@ -98,14 +129,31 @@ const translations: TranslationsMap = {
     hero: {
       greeting: 'こんにちは、',
       name: '朱延俊',
-      role: 'AIプログラミング学習者',
+      role: '🛠 Vibe Coding · 🧠 Agentic Engineering · 🤖 AI 支援開発',
       viewProjects: 'プロジェクトを見る',
       contactMe: 'お問い合わせ',
     },
     about: {
       title: '自己紹介',
       description:
-        'AIプログラミングの初心者で、Python、Git / GitHub、Claude Codeを学んでいます。フルスタック開発とAIアプリケーションに注力しています。',
+        'AIプログラミングの無限の可能性を探求。Vibe Coding を実践し、Agentic Engineering のワークフローを探索し、AI 支援で多言語開発を実現。',
+      cards: [
+        {
+          title: '🛠 Vibe Coding',
+          description:
+            '自然言語でアイデアを記述し、AI にコードを生成させる。迅速な反復と直感駆動の開発スタイル。',
+        },
+        {
+          title: '🧠 Agentic Engineering',
+          description:
+            'AI Agent ワークフローを構築し、複雑なタスクを自律的に処理。プロンプトからパイプラインまで、AI自動プログラミングの最前線を探求。',
+        },
+        {
+          title: '🤖 AI 支援開発',
+          description:
+            'Python は独学で基礎から学び、TypeScript、PHP その他の言語・フレームワークは AI 支援で習得。実践を通じて学び、AI で加速。',
+        },
+      ],
     },
     projects: {
       title: 'プロジェクト',
