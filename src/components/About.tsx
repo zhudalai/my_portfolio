@@ -1,13 +1,21 @@
 import { motion } from 'framer-motion'
-import skills from '../data/skills'
+import skillCategories from '../data/skills'
 import { useI18n } from '../i18n/I18nContext'
+
+const categoryIconBg: Record<string, string> = {
+  languages: 'from-blue-500/20 to-blue-600/10 border-blue-500/30',
+  frontend: 'from-cyan-500/20 to-cyan-600/10 border-cyan-500/30',
+  backend: 'from-green-500/20 to-green-600/10 border-green-500/30',
+  ai: 'from-purple-500/20 to-purple-600/10 border-purple-500/30',
+  tools: 'from-orange-500/20 to-orange-600/10 border-orange-500/30',
+}
 
 function About() {
   const { t } = useI18n()
 
   return (
     <section id="about" className="py-24 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,28 +36,33 @@ function About() {
           {t.about.description}
         </motion.p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {skills.map((skill, index) => (
+        {/* Skill categories */}
+        <div className="space-y-8">
+          {skillCategories.map((category, catIndex) => (
             <motion.div
-              key={skill.name}
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              key={category.key}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
-              className="bg-dark-surface rounded-lg p-4 border border-dark-border"
+              transition={{ duration: 0.5, delay: catIndex * 0.1 }}
             >
-              <div className="flex justify-between mb-2">
-                <span className="text-sm font-medium">{skill.name}</span>
-                <span className="text-sm text-gray-400">{skill.level}%</span>
-              </div>
-              <div className="w-full h-2 rounded-full bg-dark-border overflow-hidden">
-                <motion.div
-                  className="h-full rounded-full bg-gradient-to-r from-accent-start to-accent-end"
-                  initial={{ width: 0 }}
-                  whileInView={{ width: `${skill.level}%` }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: index * 0.05 }}
-                />
+              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+                {category.name}
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                {category.skills.map((skill, skillIndex) => (
+                  <motion.div
+                    key={skill.name}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.3, delay: catIndex * 0.1 + skillIndex * 0.05 }}
+                    className={`flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-br border ${categoryIconBg[category.key] || 'from-gray-500/20 to-gray-600/10 border-gray-500/30'} hover:scale-105 transition-transform cursor-default`}
+                  >
+                    <span className="text-xl">{skill.icon}</span>
+                    <span className="text-sm font-medium text-gray-200">{skill.name}</span>
+                  </motion.div>
+                ))}
               </div>
             </motion.div>
           ))}

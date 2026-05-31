@@ -17,13 +17,19 @@ const translations: TranslationsMap = {
     },
     about: {
       title: '关于我',
-      description: 'AI编程初学者，正在学习 Python、Git / GitHub 和 Claude Code。',
+      description: 'AI编程初学者，正在学习 Python、Git / GitHub 和 Claude Code。专注于全栈开发和 AI 应用。',
     },
     projects: {
       title: '项目展示',
       subtitle: '以下是我参与开发的部分项目，每个项目都体现了不同的技术挑战和解决方案。',
       empty: '项目正在筹备中，敬请期待...',
       viewProject: '查看项目',
+      viewGitHub: 'GitHub',
+      viewDemo: '在线演示',
+      filterAll: '全部',
+      filterWeb: 'Web',
+      filterAI: 'AI',
+      filterFullStack: '全栈',
     },
     contact: {
       title: '联系我',
@@ -32,7 +38,9 @@ const translations: TranslationsMap = {
       githubLabel: 'GitHub',
     },
     footer: {
-      copyright: '© {year} 个人作品集. All rights reserved.',
+      copyright: '© {year} 朱延俊. All rights reserved.',
+      quickLinks: '快速导航',
+      followMe: '关注我',
     },
   },
   en: {
@@ -52,7 +60,7 @@ const translations: TranslationsMap = {
     about: {
       title: 'About Me',
       description:
-        "I'm an AI programming beginner, learning Python, Git / GitHub, and Claude Code.",
+        "I'm an AI programming enthusiast, learning Python, Git / GitHub, and Claude Code. Focused on full-stack development and AI applications.",
     },
     projects: {
       title: 'Projects',
@@ -60,6 +68,12 @@ const translations: TranslationsMap = {
         'Here are some of my projects, each showcasing different technical challenges and solutions.',
       empty: 'Projects are coming soon, stay tuned...',
       viewProject: 'View Project',
+      viewGitHub: 'GitHub',
+      viewDemo: 'Live Demo',
+      filterAll: 'All',
+      filterWeb: 'Web',
+      filterAI: 'AI',
+      filterFullStack: 'Full Stack',
     },
     contact: {
       title: 'Contact',
@@ -69,7 +83,9 @@ const translations: TranslationsMap = {
       githubLabel: 'GitHub',
     },
     footer: {
-      copyright: '© {year} Personal Portfolio. All rights reserved.',
+      copyright: '© {year} Zhu Yanjun. All rights reserved.',
+      quickLinks: 'Quick Links',
+      followMe: 'Follow Me',
     },
   },
   ja: {
@@ -89,7 +105,7 @@ const translations: TranslationsMap = {
     about: {
       title: '自己紹介',
       description:
-        'AIプログラミングの初心者で、Python、Git / GitHub、Claude Codeを学んでいます。',
+        'AIプログラミングの初心者で、Python、Git / GitHub、Claude Codeを学んでいます。フルスタック開発とAIアプリケーションに注力しています。',
     },
     projects: {
       title: 'プロジェクト',
@@ -97,6 +113,12 @@ const translations: TranslationsMap = {
         '以下は私が開発に携わったプロジェクトの一部で、それぞれ異なる技術的課題と解決策を示しています。',
       empty: 'プロジェクトは準備中です。お楽しみに…',
       viewProject: 'プロジェクトを見る',
+      viewGitHub: 'GitHub',
+      viewDemo: 'ライブデモ',
+      filterAll: 'すべて',
+      filterWeb: 'Web',
+      filterAI: 'AI',
+      filterFullStack: 'フルスタック',
     },
     contact: {
       title: 'お問い合わせ',
@@ -106,7 +128,9 @@ const translations: TranslationsMap = {
       githubLabel: 'GitHub',
     },
     footer: {
-      copyright: '© {year} 個人ポートフォリオ. All rights reserved.',
+      copyright: '© {year} 朱延俊. All rights reserved.',
+      quickLinks: 'クイックリンク',
+      followMe: 'フォローする',
     },
   },
 }

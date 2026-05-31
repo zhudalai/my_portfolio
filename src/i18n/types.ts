@@ -23,6 +23,12 @@ export interface Translations {
     subtitle: string
     empty: string
     viewProject: string
+    viewGitHub: string
+    viewDemo: string
+    filterAll: string
+    filterWeb: string
+    filterAI: string
+    filterFullStack: string
   }
   contact: {
     title: string
@@ -32,6 +38,8 @@ export interface Translations {
   }
   footer: {
     copyright: string
+    quickLinks: string
+    followMe: string
   }
 }
 

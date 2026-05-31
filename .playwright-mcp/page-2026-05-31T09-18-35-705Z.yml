@@ -1,0 +1,373 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - navigation [ref=e4]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e10]: Home
+          - listitem [ref=e11]:
+            - link "About" [ref=e12] [cursor=pointer]:
+              - /url: /#about
+              - generic [ref=e13]: About
+          - listitem [ref=e14]:
+            - link "Experience" [ref=e15] [cursor=pointer]:
+              - /url: /#experience
+              - generic [ref=e16]: Experience
+          - listitem [ref=e17]:
+            - link "Skills" [ref=e18] [cursor=pointer]:
+              - /url: /#skills
+              - generic [ref=e19]: Skills
+          - listitem [ref=e20]:
+            - link "Projects" [ref=e21] [cursor=pointer]:
+              - /url: /#projects
+              - generic [ref=e22]: Projects
+          - listitem [ref=e23]:
+            - link "Contact" [ref=e24] [cursor=pointer]:
+              - /url: /#contact
+              - generic [ref=e25]: Contact
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "Brian Wachira" [level=1] [ref=e28]
+          - heading "Software Engineer" [level=2] [ref=e29]
+          - generic [ref=e30]:
+            - link "Github" [ref=e31] [cursor=pointer]:
+              - /url: https://github.com/brianwachira
+              - img "Github" [ref=e32]
+            - link "Behance" [ref=e33] [cursor=pointer]:
+              - /url: https://www.behance.net/brianwachira
+              - img "Behance" [ref=e34]
+            - link "LinkedIn" [ref=e35] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/brianwachira/
+              - img "LinkedIn" [ref=e36]
+            - link "Twitter" [ref=e37] [cursor=pointer]:
+              - /url: https://twitter.com/mr_brianwachira
+              - img "Twitter" [ref=e38]
+        - generic [ref=e40]:
+          - img "arrow-icon-down" [ref=e41]
+          - generic [ref=e42]: Scroll
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - img "net-bg" [ref=e46]
+            - img "gif" [ref=e48]
+          - generic [ref=e49]:
+            - heading "About Me." [level=1] [ref=e50]
+            - paragraph [ref=e51]: With a passion for technology and a focus on continuous learning, I am a software engineer with expertise in JavaScript and a willingness to explore new technologies. I am a proactive problem-solver and enjoy working on complex projects that require me to think creatively and outside the box.
+        - generic [ref=e53]:
+          - img "arrow-icon-down" [ref=e54]
+          - generic [ref=e55]: Scroll
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Over 3 years experience." [level=1] [ref=e59]
+          - generic [ref=e61]:
+            - 'button "Senior Mobile Engineer The Open Institute Africa, Nairobi June 2024 - Oct 2024 Tech Stack : Expo ( React Native ), Typescript, SQLite, Bluetooth, arrow-icon-down" [ref=e63] [cursor=pointer]':
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - heading "Senior Mobile Engineer" [level=2] [ref=e66]
+                  - heading "The Open Institute Africa, Nairobi" [level=3] [ref=e67]
+                  - time [ref=e68]: June 2024 - Oct 2024
+                  - 'heading "Tech Stack : Expo ( React Native ), Typescript, SQLite, Bluetooth," [level=4] [ref=e69]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e70]: Expo ( React Native ),
+                    - generic [ref=e71]: Typescript,
+                    - generic [ref=e72]: SQLite,
+                    - generic [ref=e73]: Bluetooth,
+                - img "arrow-icon-down" [ref=e74]
+            - 'button "Open source Project Lead ( React Native ) Rendercon Kenya, Nairobi Mar 2024 - present Tech Stack : Expo ( React Native ), Zustand, arrow-icon-down" [ref=e76] [cursor=pointer]':
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - heading "Open source Project Lead ( React Native )" [level=2] [ref=e79]
+                  - heading "Rendercon Kenya, Nairobi" [level=3] [ref=e80]
+                  - time [ref=e81]: Mar 2024 - present
+                  - 'heading "Tech Stack : Expo ( React Native ), Zustand," [level=4] [ref=e82]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e83]: Expo ( React Native ),
+                    - generic [ref=e84]: Zustand,
+                - img "arrow-icon-down" [ref=e85]
+            - 'button "Software Engineer ( Mobile & Web ) Metrixx Technologies, Nairobi Mar 2023 - Dec 2023 Tech Stack : Expo ( React Native ), NextJS, Typescript, NodeJS, arrow-icon-down" [ref=e87] [cursor=pointer]':
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - heading "Software Engineer ( Mobile & Web )" [level=2] [ref=e90]
+                  - heading "Metrixx Technologies, Nairobi" [level=3] [ref=e91]
+                  - time [ref=e92]: Mar 2023 - Dec 2023
+                  - 'heading "Tech Stack : Expo ( React Native ), NextJS, Typescript, NodeJS," [level=4] [ref=e93]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e94]: Expo ( React Native ),
+                    - generic [ref=e95]: NextJS,
+                    - generic [ref=e96]: Typescript,
+                    - generic [ref=e97]: NodeJS,
+                - img "arrow-icon-down" [ref=e98]
+            - 'button "Open source Project Lead ( React Native ) DroidconKE, Nairobi Sep 2022 - present Tech Stack : Expo ( React Native ), Typescript, Storybook, Redux ToolKit, RTKQuery, Sentry, React Query, React Native Testing Library, arrow-icon-down" [ref=e100] [cursor=pointer]':
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - heading "Open source Project Lead ( React Native )" [level=2] [ref=e103]
+                  - heading "DroidconKE, Nairobi" [level=3] [ref=e104]
+                  - time [ref=e105]: Sep 2022 - present
+                  - 'heading "Tech Stack : Expo ( React Native ), Typescript, Storybook, Redux ToolKit, RTKQuery, Sentry, React Query, React Native Testing Library," [level=4] [ref=e106]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e107]: Expo ( React Native ),
+                    - generic [ref=e108]: Typescript,
+                    - generic [ref=e109]: Storybook,
+                    - generic [ref=e110]: Redux ToolKit,
+                    - generic [ref=e111]: RTKQuery,
+                    - generic [ref=e112]: Sentry,
+                    - generic [ref=e113]: React Query,
+                    - generic [ref=e114]: React Native Testing Library,
+                - img "arrow-icon-down" [ref=e115]
+            - 'button "Software Developer Olive Tree Media Limited, Nairobi Feb 2022 - present Tech Stack : VueJS, ReactJS, NextJS, TailwindCSS, StrapiCMS, Supabase, Turborepo (Monorepo), arrow-icon-down" [ref=e117] [cursor=pointer]':
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - heading "Software Developer" [level=2] [ref=e120]
+                  - heading "Olive Tree Media Limited, Nairobi" [level=3] [ref=e121]
+                  - time [ref=e122]: Feb 2022 - present
+                  - 'heading "Tech Stack : VueJS, ReactJS, NextJS, TailwindCSS, StrapiCMS, Supabase, Turborepo (Monorepo)," [level=4] [ref=e123]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e124]: VueJS,
+                    - generic [ref=e125]: ReactJS,
+                    - generic [ref=e126]: NextJS,
+                    - generic [ref=e127]: TailwindCSS,
+                    - generic [ref=e128]: StrapiCMS,
+                    - generic [ref=e129]: Supabase,
+                    - generic [ref=e130]: Turborepo (Monorepo),
+                - img "arrow-icon-down" [ref=e131]
+            - 'button "Mobile Engineer ( React Native ) Conceptual Tech Limited, Nairobi Nov 2022 - present Tech Stack : Expo, SignalR, Typescript, Sentry, arrow-icon-down" [ref=e133] [cursor=pointer]':
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - heading "Mobile Engineer ( React Native )" [level=2] [ref=e136]
+                  - heading "Conceptual Tech Limited, Nairobi" [level=3] [ref=e137]
+                  - time [ref=e138]: Nov 2022 - present
+                  - 'heading "Tech Stack : Expo, SignalR, Typescript, Sentry," [level=4] [ref=e139]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e140]: Expo,
+                    - generic [ref=e141]: SignalR,
+                    - generic [ref=e142]: Typescript,
+                    - generic [ref=e143]: Sentry,
+                - img "arrow-icon-down" [ref=e144]
+            - 'button "Full Stack Engineer Dimetech Group( Formerly Eupotech Limited), Nairobi May 2021 - Sep 2021 Tech Stack : NextJS, Styled Components, CraftCMS, StrapiCMS, arrow-icon-down" [ref=e146] [cursor=pointer]':
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - heading "Full Stack Engineer" [level=2] [ref=e149]
+                  - heading "Dimetech Group( Formerly Eupotech Limited), Nairobi" [level=3] [ref=e150]
+                  - time [ref=e151]: May 2021 - Sep 2021
+                  - 'heading "Tech Stack : NextJS, Styled Components, CraftCMS, StrapiCMS," [level=4] [ref=e152]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e153]: NextJS,
+                    - generic [ref=e154]: Styled Components,
+                    - generic [ref=e155]: CraftCMS,
+                    - generic [ref=e156]: StrapiCMS,
+                - img "arrow-icon-down" [ref=e157]
+            - 'button "Software Developer Olive Tree Media Limited, Nairobi Sep 2019 - Feb 2021 Tech Stack : VueJS, NuxtJS, OctoberCMS, LeafletJS MapBox API, ChartJS, arrow-icon-down" [ref=e159] [cursor=pointer]':
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - heading "Software Developer" [level=2] [ref=e162]
+                  - heading "Olive Tree Media Limited, Nairobi" [level=3] [ref=e163]
+                  - time [ref=e164]: Sep 2019 - Feb 2021
+                  - 'heading "Tech Stack : VueJS, NuxtJS, OctoberCMS, LeafletJS MapBox API, ChartJS," [level=4] [ref=e165]':
+                    - text: "Tech Stack :"
+                    - generic [ref=e166]: VueJS,
+                    - generic [ref=e167]: NuxtJS,
+                    - generic [ref=e168]: OctoberCMS,
+                    - generic [ref=e169]: LeafletJS MapBox API,
+                    - generic [ref=e170]: ChartJS,
+                - img "arrow-icon-down" [ref=e171]
+        - generic [ref=e173]:
+          - img "arrow-icon-down" [ref=e174]
+          - generic [ref=e175]: Scroll
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - heading "Skills." [level=1] [ref=e180]
+              - paragraph [ref=e181]: With a diverse range of skills, including expertise in ReactJS, React Native, NodeJS, MongoDB, and GraphQL, I am a versatile software engineer with the ability to tackle a wide variety of projects and challenges.
+            - generic [ref=e182]:
+              - tablist [ref=e183]:
+                - tab "Front-end Development" [selected] [ref=e184] [cursor=pointer]
+                - tab "Mobile App Development" [ref=e185] [cursor=pointer]
+                - tab "Backend Development" [ref=e186] [cursor=pointer]
+                - tab "Testing" [ref=e187] [cursor=pointer]
+                - tab "UI Design" [ref=e188] [cursor=pointer]
+              - tabpanel "Front-end Development" [ref=e190]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - img "HTML" [ref=e193]
+                    - heading "HTML" [level=2] [ref=e194]
+                    - link "HTML" [ref=e195] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e196]:
+                    - img "CSS" [ref=e197]
+                    - heading "CSS" [level=2] [ref=e198]
+                    - link "CSS" [ref=e199] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e200]:
+                    - img "SASS" [ref=e201]
+                    - heading "SASS" [level=2] [ref=e202]
+                    - link "SASS" [ref=e203] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e204]:
+                    - img "Javascript" [ref=e205]
+                    - heading "Javascript" [level=2] [ref=e206]
+                    - link "Javascript" [ref=e207] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e208]:
+                    - img "Typescript" [ref=e209]
+                    - heading "Typescript" [level=2] [ref=e210]
+                    - link "Typescript" [ref=e211] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e212]:
+                    - img "React" [ref=e213]
+                    - heading "React" [level=2] [ref=e214]
+                    - link "React" [ref=e215] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e216]:
+                    - img "NextJS" [ref=e217]
+                    - heading "NextJS" [level=2] [ref=e218]
+                    - link "NextJS" [ref=e219] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e220]:
+                    - img "Bootstrap" [ref=e221]
+                    - heading "Bootstrap" [level=2] [ref=e222]
+                    - link "Bootstrap" [ref=e223] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=e224]:
+                    - img "TailwindCSS" [ref=e225]
+                    - heading "TailwindCSS" [level=2] [ref=e226]
+                    - link "TailwindCSS" [ref=e227] [cursor=pointer]:
+                      - /url: "#"
+          - generic [ref=e228]:
+            - img "net-bg" [ref=e229]
+            - generic [ref=e230]:
+              - img "gif"
+        - generic [ref=e232]:
+          - img "arrow-icon-down" [ref=e233]
+          - generic [ref=e234]: Scroll
+    - main [ref=e236]:
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - img "net-bg" [ref=e241]
+            - generic [ref=e242]:
+              - img "gif"
+          - generic [ref=e244]:
+            - heading "Projects" [level=1] [ref=e245]
+            - heading "droidconKE2023ReactNative" [level=2] [ref=e246]
+            - paragraph [ref=e247]: React Native App for the 4th Android Developer Conference in Kenya - droidcon to be held in Nairobi from November 8th-10th 2023.
+            - generic [ref=e248]:
+              - generic [ref=e249] [cursor=pointer]: Expo ( React Native )
+              - generic [ref=e250] [cursor=pointer]: React Query
+              - generic [ref=e251] [cursor=pointer]: React Testing Library
+            - generic [ref=e252]:
+              - link "github link" [ref=e253] [cursor=pointer]:
+                - /url: https://github.com/droidconKE/droidconKE2023ReactNative
+                - img "github link" [ref=e254]
+              - link "globe icon link" [ref=e255] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.ke.droidcon.reactnative&hl=en&gl=US
+                - img "globe icon" [ref=e256]
+        - generic [ref=e258]:
+          - generic [ref=e259]:
+            - img "net-bg" [ref=e260]
+            - generic [ref=e261]:
+              - img "gif"
+          - generic [ref=e263]:
+            - heading "Projects" [level=1] [ref=e264]
+            - heading "droidconKE2022ReactNative" [level=2] [ref=e265]
+            - paragraph [ref=e266]: React Native App for the 3rd Android Developer Conference in Kenya - droidcon to be held in Nairobi from November 16-18th 2022.
+            - generic [ref=e267]:
+              - generic [ref=e268] [cursor=pointer]: Expo ( React Native )
+              - generic [ref=e269] [cursor=pointer]: Redux
+              - generic [ref=e270] [cursor=pointer]: RTKQuery
+            - generic [ref=e271]:
+              - link "github link" [ref=e272] [cursor=pointer]:
+                - /url: https://github.com/droidconKE/droidconKE2022ReactNative
+                - img "github link" [ref=e273]
+              - link "globe icon link" [ref=e274] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.brianwachira.droidconKE2022ReactNative&hl=en&gl=US
+                - img "globe icon" [ref=e275]
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - img "net-bg" [ref=e279]
+            - generic [ref=e280]:
+              - img "gif"
+          - generic [ref=e282]:
+            - heading "Projects" [level=1] [ref=e283]
+            - heading "Sales Reps App" [level=2] [ref=e284]
+            - paragraph [ref=e285]: An app for managing sales reps in pharmaceutical companies
+            - generic [ref=e286]:
+              - generic [ref=e287] [cursor=pointer]: Expo ( React Native )
+              - generic [ref=e288] [cursor=pointer]: React Query
+              - generic [ref=e289] [cursor=pointer]: React Testing Library
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - img "net-bg" [ref=e292]
+            - generic [ref=e293]:
+              - img "gif"
+          - generic [ref=e295]:
+            - heading "Projects" [level=1] [ref=e296]
+            - heading "Restuarants App" [level=2] [ref=e297]
+            - paragraph [ref=e298]: An app for ordering food from restuarants and managing the restuarants
+            - generic [ref=e299]:
+              - generic [ref=e300] [cursor=pointer]: React Native
+              - generic [ref=e301] [cursor=pointer]: React Testing Library
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - img "net-bg" [ref=e304]
+            - generic [ref=e305]:
+              - img "gif"
+          - generic [ref=e307]:
+            - heading "Projects" [level=1] [ref=e308]
+            - heading "Church App" [level=2] [ref=e309]
+            - paragraph [ref=e310]: Coming up with IOS design guidelines for an existing android mobile application using Figma. Translating the design into a mobile app using Expo (React Native) and Typescript. Writing tests for the components used using testing library ( React Native ). Error tracking and monitoring using Sentry
+            - generic [ref=e311]:
+              - generic [ref=e312] [cursor=pointer]: React Native
+              - generic [ref=e313] [cursor=pointer]: Figma
+              - generic [ref=e314] [cursor=pointer]: Typescript
+      - generic [ref=e323]:
+        - img "arrow-icon-down" [ref=e324]
+        - generic [ref=e325]: Scroll
+    - main [ref=e327]:
+      - generic [ref=e328]:
+        - heading "Drop me a message, I would love to hear from you!" [level=1] [ref=e330]:
+          - text: Drop me a message,
+          - text: I would love to hear from you!
+        - generic [ref=e331]:
+          - heading "Get in touch" [level=2] [ref=e332]
+          - generic [ref=e333]:
+            - textbox "Name" [ref=e334]:
+              - /placeholder: " "
+            - generic [ref=e335]: Name
+          - generic [ref=e336]:
+            - textbox "Email" [ref=e337]:
+              - /placeholder: " "
+            - generic [ref=e338]: Email
+          - generic [ref=e339]:
+            - textbox "Message" [ref=e340]:
+              - /placeholder: " "
+            - generic [ref=e341]: Message
+          - button "Send Message" [ref=e343] [cursor=pointer]
+    - contentinfo [ref=e344]:
+      - main [ref=e345]:
+        - heading "Find me on social media...." [level=1] [ref=e346]
+        - generic [ref=e348]:
+          - link "Github" [ref=e349] [cursor=pointer]:
+            - /url: https://github.com/brianwachira
+            - img "Github" [ref=e350]
+          - link "Behance" [ref=e351] [cursor=pointer]:
+            - /url: https://www.behance.net/brianwachira
+            - img "Behance" [ref=e352]
+          - link "LinkedIn" [ref=e353] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/brianwachira/
+            - img "LinkedIn" [ref=e354]
+          - link "Twitter" [ref=e355] [cursor=pointer]:
+            - /url: https://twitter.com/mr_brianwachira
+            - img "Twitter" [ref=e356]
+        - generic [ref=e358]:
+          - text: Design inspiration from
+          - link "Akhil T J Portfolio Mockup Design" [ref=e359] [cursor=pointer]:
+            - /url: https://www.figma.com/community/file/1006095821656678611
+        - generic [ref=e360]:
+          - heading "All Rights Reserved © 2026" [level=2] [ref=e361]
+          - link "Privacy Policy" [ref=e362] [cursor=pointer]:
+            - /url: /privacypolicy
+  - alert [ref=e363]

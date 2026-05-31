@@ -1,0 +1,11 @@
+[     319ms] Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rg (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:40170)
+    at https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:103475
+    at oI (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:106225)
+    at oD (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:99173)
+    at https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:98980
+    at oO (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:98987)
+    at ox (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:9:94026)
+    at x (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:33:1373)
+    at MessagePort.T (https://www.brianwachira.dev/_next/static/chunks/framework-114634acb84f8baa.js:33:1903)
+[     682ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/03fdb466-60c7-4df2-8aeb-8f9f008d2afa/db8o23g-c69fffc4-ad01-4d0a-8add-832de1a26de7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAzZmRiNDY2LTYwYzctNGRmMi04YWViLThmOWYwMDhkMmFmYVwvZGI4bzIzZy1jNjlmZmZjNC1hZDAxLTRkMGEtOGFkZC04MzJkZTFhMjZkZTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.u2KXFJm5O_QWDqHAScT-QTWe_pwrUaCubl4UMxl1Gw0:0
