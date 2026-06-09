@@ -66,6 +66,17 @@ const projects: Project[] = [
     language: "Python",
     emoji: "🤖",
   },
+  {
+    name: "YYC Recommendation Engine",
+    image: "",
+    description: "A matching recommendation system simulating the core workflow of a dating/matching app. Features ML model training (MF, BPR, NeuMF, Two-Tower), REST API, and modern frontend.",
+    techStack: ["Python", "PyTorch", "Flask", "React", "TypeScript"],
+    link: "https://github.com/zhudalai/yyc-recommendation-engine",
+    githubUrl: "https://github.com/zhudalai/yyc-recommendation-engine",
+    liveUrl: "https://frontend-sand-phi-60.vercel.app",
+    language: "Python",
+    emoji: "🎯",
+  },
 ]
 
 export default projects
